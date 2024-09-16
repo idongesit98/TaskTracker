@@ -58,5 +58,3 @@ dotnet run delete 1
   }
 ]
 ```
-
-### More updates could be added.
