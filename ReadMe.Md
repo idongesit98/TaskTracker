@@ -21,8 +21,7 @@ This is a simple command-line interface (CLI) application for managing tasks.
 **Clone the Repository**
 
    ```bash
-   git clone --depth=1 https://github.com/Aj-Seven/backend-projects
-
+   git clone -- https://github.com/idongesit98/TaskTracker.git
    # Navigate to the project Directory
    cd [`Your project directory`]
    ```
@@ -30,29 +29,17 @@ This is a simple command-line interface (CLI) application for managing tasks.
 
 - **Add a Task**
 ```bash
-dotnet run add "Drink a Coffee"
+dotnet run add "Testing Task Tracker"
 ```
 
 - **List all Tasks**
 ```bash
 dotnet run list
 ```
-- **or by list the tasks by status**
-```Power Shell
-# To list the tasks that are marked as to-do
-dotnet run list "to-do"
-
-# To list the tasks that are marked as in-progess
-dotnet run list "in-progress"
-
-# To list the tasks that are marked as done
-dotnet run list "done"
-```
-
 - **Update a Task**
 # You can update either status, description or both 
 ```bash
-dotnet run update 1 "Drink a Coffee and Do Coding"
+dotnet run update 1 "Testing Task Tracker and coding"
 ```
 
 - **Delete a Task**
@@ -71,3 +58,5 @@ dotnet run delete 1
   }
 ]
 ```
+
+### More updates could be added.
