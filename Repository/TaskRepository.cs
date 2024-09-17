@@ -38,7 +38,7 @@ namespace TaskTracker.Repository
                 Description = description, 
                 Status = "To Do", 
                 CreatedAt = DateTime.Now, 
-                UpdatedAt = DateTime.Now
+                UpdatedAt = DateTime.UtcNow
             };
             tasks.Add(newTask);
             SaveTask(tasks);
@@ -94,7 +94,7 @@ namespace TaskTracker.Repository
             {
                 if(filter == null || task.Status.Equals(filter, StringComparison.OrdinalIgnoreCase))
                 {
-                    Console.WriteLine($"{task.Id}. {task.Description} - {task.Status} - Created at: {task.CreatedAt}");
+                    Console.WriteLine($"{task.Id}. {task.Description} - {task.Status} - Created at: {task.CreatedAt} - Updated at: {task.UpdatedAt}" );
                 }
             }
         }

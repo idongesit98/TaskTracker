@@ -53,7 +53,7 @@ dotnet run delete 1
 [
   {
     "id": 1,
-    "description": "Drink a Coffee",
+    "description": "Testing Task Tracker and coding",
     "status": "to-do"
   }
 ]
